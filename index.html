@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<br/>
+<br/>
+<title>Meme Captioning</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="http://people.eecs.berkeley.edu/~shiry/styles/main.css"/>
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+		<div class="page-header">
+			<h1 class="text-center">Towards Increased Accessibility of Meme Images with the help of Rich Face Emotion Captions</h1>
+		</div>
+	</div>
+</div>
+<br>
+<div class="row"> <!-- names row-->
+		<div class="col-md-4">
+			<h5 class="text-center"><a href="">K R Prajwal</a></h5>
+		</div>
+		<div class="col-md-4">
+			<h5 class="text-center"><a href="https://faculty.iiit.ac.in/~jawahar/">C V Jawahar</a></h5>
+		</div>
+		<div class="col-md-4">
+			<h5 class="text-center"><a href="http://precog.iiitd.edu.in/">Ponnurangam Kumaraguru</a></h5>
+		</div>
+</div>
+<div class="row">
+	<div class="col-md-1">
+	</div>
+	<div class="col-md-4">
+		<h5 class="text-right">CVIT, IIIT Hyderabad</h5>
+	</div>
+	<div class="col-md-1">
+		<h5 class="text-center"></h5>
+	</div>
+	<div class="col-md-4">
+		<h5 class="text-center">Precog, IIIT Delhi</h5>
+	</div>
+</div>
+
+<br>
+<div class="row">
+	<div class="col-md-12">
+		<h5 class="text-center">ACM Multimedia 2019</h5>
+	</div>
+<div>
+<br>
+<div class="row">
+	<div class="col-md-6">
+	</div>
+	<div class="col-md-12">
+		<h3 class="text-center"><a href="https://gitlab.com/prajwalkr/meme-express">[Code, Models]</a><a href=#data>[Data]</a></h3>
+	</div>
+<div>
+
+<div class="row">
+	<div class="col-md-1">
+		<!--left margin column-->
+	</div>
+
+	<div class="col-md-11 text-center"> <!--main content column-->
+
+	    <figure class="figure">
+	      <img src="images/banner.png" class="img-fluid mx-auto" alt="4 Reaction memes generated captions for each. Other captions from existing methods are also shown for comparison">
+	      <figcaption class="figure-caption"> We improve the accessibility of Reaction Memes, one of the most popular kinds of multimodal content in social media. Our face emotion captions supplemented by the meme text are more useful for the visually-impaired users than contemporary assistive technologies like the Facebook Automatic Alt-Text.</figcaption>
+	    </figure>
+
+	<br><br>
+    <h2>Abstract</h2>
+    <p class="text-justify">
+In recent years, there has been an explosion in the number of memes being created and circulated in online social networks. Despite their rapidly increasing impact on how we communicate online, meme images are virtually inaccessible to the visually impaired users. Existing automated assistive systems that were primarily devised for natural photos in social media, overlook the specific fine-grained visual details in meme images. In this paper, we concentrate on describing one such prominent visual detail: the meme face emotion. We propose a novel automated method that enables visually impaired social media users to understand and appreciate meme face emotions with the help of rich textual captions. We first collect a challenging dataset of meme face emotion captions to support future research in face emotion understanding. We design a two-stage approach that significantly outperforms baseline approaches across all the standard captioning metrics and also generates richer discriminative captions. By validating our solution with the help of visually impaired social media users, we show that our emotion captions enable them to understand and appreciate one of the most popular classes of meme images encountered on the Internet for the first time.
+    </p>
+
+ 	<hr>
+
+ <h2>Paper</h2>
+    <ul class="media-list, citations">
+    <li class="media" id="gestures">
+        <a class="pull-left" href="pdf/paper.pdf">
+            <img class="media-object img-fluid img-thumbnail mr-4" src="images/paper_screenshot.png" alt="Face-to-Face Paper" width="150">
+        </a>
+        <div class="media-body">
+            <h5 class="media-heading text-left">Towards Increased Accessibility of Meme Images with the help of Rich Face Emotion Captions</h5>
+            <p class="text-left">
+              Prajwal Renukanand, C V Jawahar, Ponnurangam Kumaraguru
+              <br>
+              <span class="cite-title">Towards Increased Accessibility of Meme Images with the help of Rich Face Emotion Captions</span>,
+              ACM Multimedia, 2019.
+              <br>
+              <a href="pdf/paper.pdf">[PDF]</a> | <a href="#gestures" role="button" data-toggle="collapse" data-target="#collapse-gestures" aria-expanded="false" aria-controls="collapse">[BibTeX]</a>
+              <div class="collapse" id="collapse-gestures">
+              <div class="card text-left bg-light mb-4">
+                @InProceedings{ginosar2019gestures,<br> 
+        &nbsp;&nbsp;author={S. Ginosar and A. Bar and G. Kohavi and C. Chan and A. Owens and J. Malik},<br> 
+        &nbsp;&nbsp;title = {Learning Individual Styles of Conversational Gesture},<br>
+        &nbsp;&nbsp;booktitle = {Computer Vision and Pattern Recognition (CVPR)}<br> 
+        &nbsp;&nbsp;publisher = {IEEE},<br>
+        &nbsp;&nbsp;year={2019},<br> 
+        &nbsp;&nbsp;month=jun<br>
+        }
+              </div>
+              </div>
+            </p>
+        </div>
+    </li>
+  </ul>
+
+ 	<hr>
+
+   	 <h2 id='data'>Data</h2>
+	<br>
+   	 <p class="text-justify">
+   	 	We present a face emotion captioning dataset for about 2,000 face images from Reaction meme images. Each face is annotated with three captions to give a total of about 6,000 rich emotion face emotion captions. The dataset can be requested for research purposes using the link below.
+   	 </p>
+   	<div>
+   		<a href="#" class="btn btn-outline-secondary">Request Access</a>
+   	</div>
+
+ 	<hr>
+ 	
+ 	 <h2>Acknowledgements</h2>
+ 	  <br>
+ 	 <p class="text-justify"></p>
+
+	</div> <!-- close middle column -->
+	<div class="col-md-1">
+	<!-- empty room saver on right -->
+	</div>
+</div> <!-- close main row -->
+</div> <!-- close body container --> 
+<footer>
+  <br/>
+  <br/>
+</footer>
+</div>
+</body>
+</html>
+
